@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -37,5 +38,11 @@ public class BasePage {
 
     public boolean waitForElementToBeVisibled(WebElement element){
         return wait.until(ExpectedConditions.visibilityOf(element)) != null;
+    }
+
+    public void moveComponent(WebElement dragAccept, int x, int y){
+        Actions action= new Actions(driver);
+        action.dragAndDropBy(dragAccept,x,y).perform();
+
     }
 }

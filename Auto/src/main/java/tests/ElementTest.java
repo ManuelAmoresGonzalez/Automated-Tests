@@ -83,6 +83,12 @@ public class ElementTest {
         Widgets widget = new Widgets(driver);
         Assert.assertTrue(widget.uploadFile());
     }
+//DragandDrop
+    @Test
+    private void tenthTest(){
+        Widgets widget = new Widgets(driver);
+        Assert.assertTrue(widget.uploadFile());
+    }
 
 /*  @Test
     private void LoginError(){
