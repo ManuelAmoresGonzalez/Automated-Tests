@@ -43,6 +43,5 @@ public class BasePage {
     public void moveComponent(WebElement dragAccept, int x, int y){
         Actions action= new Actions(driver);
         action.dragAndDropBy(dragAccept,x,y).perform();
-
     }
 }

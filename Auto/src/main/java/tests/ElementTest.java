@@ -77,18 +77,18 @@ public class ElementTest {
         Elements openPage= new Elements(driver);
         Assert.assertTrue(openPage.uploadFile());
     }
-
-    @Test
-    private void ninethTest(){
-        Widgets widget = new Widgets(driver);
-        Assert.assertTrue(widget.uploadFile());
-    }
-//DragandDrop
-    @Test
+/*@Test
     private void tenthTest(){
         Widgets widget = new Widgets(driver);
         Assert.assertTrue(widget.uploadFile());
-    }
+    }*/
+   /* @Test
+    private void ninethTest(){
+        Widgets widget = new Widgets(driver);
+        Assert.assertTrue(widget.uploadFile());
+    }*/
+//DragandDrop
+
 
 /*  @Test
     private void LoginError(){

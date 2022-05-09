@@ -11,8 +11,7 @@ import pages.Widgets;
 
 public class WidgetsTest {
 
-    WebDriver driver;
-    BasePage basePage;
+    WebDriver driver;    BasePage basePage;
 
     @BeforeMethod
     private void setUp(){
